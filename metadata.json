@@ -1,0 +1,6 @@
+{
+  "name": "CoFound - Simple Business Task, Expense & Wallet Manager",
+  "description": "A shared workspace for two co-founders to manage goals, checklist tasks, business expenses, company wallets, and partner reimbursements with financial precision.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,372 @@
+{
+  "version": 1,
+  "savedAt": "2026-10-19T08:09:42.166Z",
+  "data": {
+    "users": [
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb7c",
+        "name": "Adil Salah",
+        "email": "adil@cofound.demo",
+        "passwordHash": "$2b$10$kRCMbznEk.AxGORlN8iQlO6nmhAViypGhjmu6V/m/dNd8IHahc8SC",
+        "phone": "+91 98765 43210",
+        "createdAt": "2026-10-15T23:04:58.270Z",
+        "updatedAt": "2026-10-15T23:04:58.270Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb7d",
+        "name": "Rohan Mehta",
+        "email": "rohan@cofound.demo",
+        "passwordHash": "$2b$10$kRCMbznEk.AxGORlN8iQlO6nmhAViypGhjmu6V/m/dNd8IHahc8SC",
+        "phone": "+91 98123 45678",
+        "createdAt": "2026-10-15T23:04:58.287Z",
+        "updatedAt": "2026-10-15T23:04:58.287Z",
+        "__v": 0
+      }
+    ],
+    "workspaces": [
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb7e",
+        "name": "Apex Ventures",
+        "owner": "6ad15c1a6bcc5fac64a1fb7c",
+        "createdAt": "2026-10-15T23:04:58.290Z",
+        "updatedAt": "2026-10-15T23:04:58.290Z",
+        "__v": 0
+      }
+    ],
+    "memberships": [
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb7f",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "user": "6ad15c1a6bcc5fac64a1fb7c",
+        "role": "owner",
+        "createdAt": "2026-10-15T23:04:58.296Z",
+        "updatedAt": "2026-10-15T23:04:58.296Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb80",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "user": "6ad15c1a6bcc5fac64a1fb7d",
+        "role": "member",
+        "createdAt": "2026-10-15T23:04:58.296Z",
+        "updatedAt": "2026-10-15T23:04:58.296Z",
+        "__v": 0
+      }
+    ],
+    "invitations": [
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb81",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "inviteCode": "APEX26",
+        "role": "member",
+        "createdBy": "6ad15c1a6bcc5fac64a1fb7c",
+        "status": "ACTIVE",
+        "createdAt": "2026-10-15T23:04:58.301Z",
+        "updatedAt": "2026-10-15T23:04:58.301Z",
+        "__v": 0
+      }
+    ],
+    "wallets": [
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb82",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "name": "Company Cash",
+        "type": "CASH",
+        "openingBalance": 5000,
+        "status": "ACTIVE",
+        "createdAt": "2026-10-15T23:04:58.305Z",
+        "updatedAt": "2026-10-15T23:04:58.305Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb84",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "name": "Company Bank 1",
+        "type": "BANK",
+        "openingBalance": 35000,
+        "status": "ACTIVE",
+        "createdAt": "2026-10-15T23:04:58.354Z",
+        "updatedAt": "2026-10-15T23:04:58.354Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb86",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "name": "Company Bank 2",
+        "type": "BANK",
+        "openingBalance": 20000,
+        "status": "ACTIVE",
+        "createdAt": "2026-10-15T23:04:58.387Z",
+        "updatedAt": "2026-10-15T23:04:58.387Z",
+        "__v": 0
+      }
+    ],
+    "goals": [
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb88",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "name": "Branding",
+        "createdBy": "6ad15c1a6bcc5fac64a1fb7c",
+        "createdAt": "2026-10-15T23:04:58.396Z",
+        "updatedAt": "2026-10-15T23:04:58.396Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb8c",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "name": "Product Research",
+        "createdBy": "6ad15c1a6bcc5fac64a1fb7d",
+        "createdAt": "2026-10-15T23:04:58.403Z",
+        "updatedAt": "2026-10-15T23:04:58.403Z",
+        "__v": 0
+      }
+    ],
+    "tasks": [
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb89",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "goal": "6ad15c1a6bcc5fac64a1fb88",
+        "title": "Finalize brand name",
+        "isCompleted": true,
+        "createdBy": "6ad15c1a6bcc5fac64a1fb7c",
+        "completedBy": "6ad15c1a6bcc5fac64a1fb7c",
+        "completedAt": "2026-10-12T23:04:58.398Z",
+        "createdAt": "2026-10-15T23:04:58.399Z",
+        "updatedAt": "2026-10-15T23:04:58.399Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb8a",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "goal": "6ad15c1a6bcc5fac64a1fb88",
+        "title": "Select brand colors",
+        "isCompleted": true,
+        "createdBy": "6ad15c1a6bcc5fac64a1fb7c",
+        "completedBy": "6ad15c1a6bcc5fac64a1fb7d",
+        "completedAt": "2026-10-13T23:04:58.398Z",
+        "createdAt": "2026-10-15T23:04:58.399Z",
+        "updatedAt": "2026-10-15T23:04:58.399Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb8b",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "goal": "6ad15c1a6bcc5fac64a1fb88",
+        "title": "Design logo & collateral",
+        "isCompleted": false,
+        "createdBy": "6ad15c1a6bcc5fac64a1fb7d",
+        "createdAt": "2026-10-15T23:04:58.399Z",
+        "updatedAt": "2026-10-15T23:04:58.399Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb8d",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "goal": "6ad15c1a6bcc5fac64a1fb8c",
+        "title": "Research top 5 competitors",
+        "isCompleted": true,
+        "createdBy": "6ad15c1a6bcc5fac64a1fb7d",
+        "completedBy": "6ad15c1a6bcc5fac64a1fb7d",
+        "completedAt": "2026-10-14T23:04:58.405Z",
+        "createdAt": "2026-10-15T23:04:58.406Z",
+        "updatedAt": "2026-10-15T23:04:58.406Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb8e",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "goal": "6ad15c1a6bcc5fac64a1fb8c",
+        "title": "Identify initial prototype products",
+        "isCompleted": false,
+        "createdBy": "6ad15c1a6bcc5fac64a1fb7c",
+        "createdAt": "2026-10-15T23:04:58.406Z",
+        "updatedAt": "2026-10-15T23:04:58.406Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb8f",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "goal": "6ad15c1a6bcc5fac64a1fb8c",
+        "title": "Request supplier pricing quotes",
+        "isCompleted": false,
+        "createdBy": "6ad15c1a6bcc5fac64a1fb7d",
+        "createdAt": "2026-10-15T23:04:58.406Z",
+        "updatedAt": "2026-10-15T23:04:58.406Z",
+        "__v": 0
+      }
+    ],
+    "expenses": [
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb90",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "paymentId": "PAY-2026-0001",
+        "title": "Logo design & vector export",
+        "amount": 2000,
+        "expenseDate": "2026-10-11T23:04:58.414Z",
+        "category": "Branding",
+        "paymentSourceType": "personal",
+        "payingPartner": "6ad15c1a6bcc5fac64a1fb7c",
+        "description": "Paid to freelance graphic designer via UPI",
+        "reimbursedAmount": 1000,
+        "createdBy": "6ad15c1a6bcc5fac64a1fb7c",
+        "createdAt": "2026-10-15T23:04:58.415Z",
+        "updatedAt": "2026-10-15T23:04:58.510Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb91",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "paymentId": "PAY-2026-0002",
+        "title": "Sample packaging boxes & bubble wrap",
+        "amount": 1500,
+        "expenseDate": "2026-10-12T23:04:58.420Z",
+        "category": "Packaging",
+        "paymentSourceType": "personal",
+        "payingPartner": "6ad15c1a6bcc5fac64a1fb7d",
+        "description": "Sample packaging batch",
+        "reimbursedAmount": 0,
+        "createdBy": "6ad15c1a6bcc5fac64a1fb7d",
+        "createdAt": "2026-10-15T23:04:58.420Z",
+        "updatedAt": "2026-10-15T23:04:58.420Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb92",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "paymentId": "PAY-2026-0003",
+        "title": "Initial sample product procurement",
+        "amount": 5000,
+        "expenseDate": "2026-10-13T23:04:58.425Z",
+        "category": "Product Purchase",
+        "paymentSourceType": "company",
+        "companyWallet": "6ad15c1a6bcc5fac64a1fb84",
+        "description": "Direct vendor transfer from Company Bank 1",
+        "reimbursedAmount": 0,
+        "createdBy": "6ad15c1a6bcc5fac64a1fb7c",
+        "createdAt": "2026-10-15T23:04:58.426Z",
+        "updatedAt": "2026-10-15T23:04:58.426Z",
+        "__v": 0
+      }
+    ],
+    "transactions": [
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb83",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "transactionId": "TXN-2026-0001",
+        "wallet": "6ad15c1a6bcc5fac64a1fb82",
+        "type": "OPENING_BALANCE",
+        "amount": 5000,
+        "date": "2026-10-15T23:04:58.347Z",
+        "description": "Initial opening balance",
+        "resultingBalance": 5000,
+        "createdBy": "6ad15c1a6bcc5fac64a1fb7c",
+        "createdAt": "2026-10-15T23:04:58.349Z",
+        "updatedAt": "2026-10-15T23:04:58.349Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb85",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "transactionId": "TXN-2026-0002",
+        "wallet": "6ad15c1a6bcc5fac64a1fb84",
+        "type": "OPENING_BALANCE",
+        "amount": 35000,
+        "date": "2026-10-15T23:04:58.367Z",
+        "description": "Initial opening balance",
+        "resultingBalance": 35000,
+        "createdBy": "6ad15c1a6bcc5fac64a1fb7c",
+        "createdAt": "2026-10-15T23:04:58.368Z",
+        "updatedAt": "2026-10-15T23:04:58.368Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb87",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "transactionId": "TXN-2026-0003",
+        "wallet": "6ad15c1a6bcc5fac64a1fb86",
+        "type": "OPENING_BALANCE",
+        "amount": 20000,
+        "date": "2026-10-15T23:04:58.393Z",
+        "description": "Initial opening balance",
+        "resultingBalance": 20000,
+        "createdBy": "6ad15c1a6bcc5fac64a1fb7c",
+        "createdAt": "2026-10-15T23:04:58.393Z",
+        "updatedAt": "2026-10-15T23:04:58.393Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb93",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "transactionId": "TXN-2026-0004",
+        "wallet": "6ad15c1a6bcc5fac64a1fb84",
+        "type": "COMPANY_PAID_EXPENSE",
+        "amount": 5000,
+        "date": "2026-10-13T23:04:58.428Z",
+        "description": "Expense: Initial sample product procurement",
+        "relatedExpense": "6ad15c1a6bcc5fac64a1fb92",
+        "resultingBalance": 30000,
+        "createdBy": "6ad15c1a6bcc5fac64a1fb7c",
+        "createdAt": "2026-10-15T23:04:58.446Z",
+        "updatedAt": "2026-10-15T23:04:58.446Z",
+        "__v": 0
+      },
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb94",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "transactionId": "TXN-2026-0005",
+        "wallet": "6ad15c1a6bcc5fac64a1fb82",
+        "type": "REIMBURSEMENT_SETTLEMENT",
+        "amount": 1000,
+        "date": "2026-10-14T23:04:58.461Z",
+        "description": "Partial reimbursement for logo design expense",
+        "relatedSettlement": "6ad15c1a6bcc5fac64a1fb95",
+        "resultingBalance": 4000,
+        "createdBy": "6ad15c1a6bcc5fac64a1fb7c",
+        "createdAt": "2026-10-15T23:04:58.491Z",
+        "updatedAt": "2026-10-15T23:04:58.497Z",
+        "__v": 0
+      }
+    ],
+    "settlements": [
+      {
+        "_id": "6ad15c1a6bcc5fac64a1fb95",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "settlementId": "SETTLE-2026-0001",
+        "partner": "6ad15c1a6bcc5fac64a1fb7c",
+        "companyWallet": "6ad15c1a6bcc5fac64a1fb82",
+        "amount": 1000,
+        "date": "2026-10-14T23:04:58.461Z",
+        "notes": "Partial reimbursement for logo design expense",
+        "transaction": "6ad15c1a6bcc5fac64a1fb94",
+        "createdBy": "6ad15c1a6bcc5fac64a1fb7c",
+        "createdAt": "2026-10-15T23:04:58.493Z",
+        "updatedAt": "2026-10-15T23:04:58.493Z",
+        "__v": 0
+      }
+    ],
+    "sequences": [
+      {
+        "_id": "6ad15c1abcba922222b0182b",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "sequenceKey": "TXN_2026",
+        "seq": 5,
+        "__v": 0
+      },
+      {
+        "_id": "6ad15c1abcba922222b0182c",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "sequenceKey": "PAY_2026",
+        "seq": 3,
+        "__v": 0
+      },
+      {
+        "_id": "6ad15c1abcba922222b0182d",
+        "workspace": "6ad15c1a6bcc5fac64a1fb7e",
+        "sequenceKey": "SETTLE_2026",
+        "seq": 1,
+        "__v": 0
+      }
+    ]
+  }
+}
